@@ -4,7 +4,7 @@ This table will show what names that should be used for different properties whe
 
 | FIELD | FIELD TITLE | DESCRIPTION | TacticalJSON |
 | ----- | ----------- | ----------- | ------------ |
-| SIDC | Symbol Identification Code | Symbol Identification Code for the symbol or graphic.  | `SIDC: String` |
+| SIDC | Symbol Identification Code | Symbol Identification Code for the symbol or graphic.  | `sidc: String` |
 | A | Symbol Icon | The innermost part of a symbol, comprised of an icon and optional modifiers, that represents a joint military object (see 5.3.4).|  |
 | B | Echelon | A graphic amplifier in a unit symbol that identifies command level |  |
 | C | Quantity | A text amplifier in an equipment symbol that identifies the number of items present. | `quantity: String` |
