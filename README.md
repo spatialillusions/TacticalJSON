@@ -6,7 +6,7 @@ Specification for different types of tactical data in JSON format
 
 Primary intended to be a specification for data in [milgraphics](https://github.com/spatialillusions/milgraphics) but also as an [alternative exchange format between systems](https://xkcd.com/927/).
 
-TacticalJSON is based on GeoJSON and simply defines what properties names should be, and what geometry types that should be used for different symbols, and the symbol geometries are based on the definitions in MIL-STD-2525D. Being based on a existing file format, you can read the base geometries of TacticalJSON with any client that can read GeoJSON today. On the contrary NVG, Nato Vector Graphics, and MSDL, Military Scenario Definition Language, requires a custom client to read the raw information.
+TacticalJSON is based on GeoJSON and simply defines what properties names should be, and what geometry types that should be used for different symbols, and the symbol geometries are based on the definitions in MIL-STD-2525D. Being based on a existing file format, you can read the base geometries of TacticalJSON with any client that can read GeoJSON today. On the contrary NVG, Nato Vector Graphics, and MSDL, Military Scenario Definition Language, requires a custom client to read the raw information, the same goes for ADEM, Alternate Development and Exchange Method.
 
 It is also possible to utilize any OGC WFS server capable of serving GeoJSON to provide TacticalJSON to networked clients. OGC WFS was marked as Combat ready in 2014 by [DGIWG](https://www.dgiwg.org/dgiwg/), Defence Geospatial Information Working Group, so it is a proven technique to provide information. 
 
