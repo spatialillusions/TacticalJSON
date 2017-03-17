@@ -12,7 +12,6 @@ This table will show what names that should be used for different properties whe
 | F | Reinforced or Reduced | A text amplifier in a unit symbol that displays (+) for reinforced, (-) for reduced, (+) reinforced and reduced. | `reinforcedReduced: String` |
 | G | Staff Comments | A text amplifier for units, equipment and installations; content is implementation specific. | `staffComments: String` |
 | H | Additional Information | A text amplifier for units, equipment and installations; content is implementation specific. | `additionalInformation: String` |
-| H1 | Additional Information | A text amplifier for units, equipment and installations; content is implementation specific. | `additionalInformation1: String` |
 | J | Evaluation Rating | A text amplifier for units, equipment and installations that consists of a one-letter reliability rating and a one-number credibility rating:| `evaluationRating: String` |
 | K | Combat Effectiveness | A text amplifier for units and installations that indicates unit effectiveness or installation capability. | `combatEffectiveness: String` |
 | L | Signature Equipment | A text amplifier for hostile equipment; “!” indicates detectable electronic signatures. | `signatureEquipment: String` |
