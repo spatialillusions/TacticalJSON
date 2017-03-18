@@ -12,6 +12,7 @@ This table will show what names that should be used for different properties whe
 | F | Reinforced or Reduced | A text amplifier in a unit symbol that displays (+) for reinforced, (-) for reduced, (+) reinforced and reduced. | `reinforcedReduced: String` |
 | G | Staff Comments | A text amplifier for units, equipment and installations; content is implementation specific. | `staffComments: String` |
 | H | Additional Information | A text amplifier for units, equipment and installations; content is implementation specific. | `additionalInformation: String` |
+| H1 | Additional Information | A text amplifier for units, equipment and installations; content is implementation specific. | `additionalInformation1: String` |
 | J | Evaluation Rating | A text amplifier for units, equipment and installations that consists of a one-letter reliability rating and a one-number credibility rating:| `evaluationRating: String` |
 | K | Combat Effectiveness | A text amplifier for units and installations that indicates unit effectiveness or installation capability. | `combatEffectiveness: String` |
 | L | Signature Equipment | A text amplifier for hostile equipment; “!” indicates detectable electronic signatures. | `signatureEquipment: String` |
@@ -42,7 +43,7 @@ This table will show what names that should be used for different properties whe
 | AK | Pairing Line | A graphic amplifier for units, equipment and installations that connects two objects and is updated dynamically as the positions of the two objects change |  |
 | AL | Operational Condition | A graphic amplifier for equipment or installations that indicates operational condition or capacity. |  |
 | AM | Distance | A numeric amplifier that displays a minimum, maximum, or a specific distance (range, radius, width, length, etc.), in meters. | `distance: Number` |
-| AN | Azimuth | A numeric amplifier that displays an angle measured from true north to any other line in degrees. |  |
+| AN | Azimuth | A numeric amplifier that displays an angle measured from true north to any other line in degrees. | `azimuth: Number` |
 | AO | Engagement Bar | A graphic amplifier placed immediately atop the symbol. May denote, 1) local/remote status; 2) engagement status; and 3) weapon type. |  |
 | AP | Target Number | A six character text modifier used in Fire Support operations to uniquely designate targets in accordance with STANAG 2147, where characters 1 and 2 are alphabetic, and characters 3-6 are numeric: AANNNN. | `targetNumber: String` |
 | AP1 | Target Number Extension | A 2-3 character text amplifier. A target number extension is a sequentially assigned number identifying the individual elements in a target (STANAG 5519), where character 1 is a dash (-) and characters 2-3 are number, from 1 through 15. It is applicable only to the “Point or Single Target” symbol, is conditional upon the presence of the Target Number amplifier, and is visually displayed appended to the Target Number amplifier. |  |
