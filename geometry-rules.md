@@ -9,23 +9,23 @@ This document will show how geometries should be stored in TacticalJSON. It is b
 | Area3 | Anchor Points: This symbol requires at least three anchor points to define the boundary of the area. Add as many points as necessary to accurately reflect the area’s size and shape. | `Polygon` |
 | Area4 | Anchor Points: This symbol requires at least three anchor points to define the boundary of the area. Add as many points as necessary to accurately reflect the area’s size and shape. | `Polygon` |
 | Area5 | Anchor Points: This symbol requires three anchor points. Points 1 and 2 define the endpoints of the semicircle's opening. Point 3 defines the end of the arrow. | `Polygon` |
-| Area6 | Anchor Points: This symbol requires two anchor points. Point 1 defines the center point of the symbol and point 2 defines the symbol’s start point and radius. | `Polygon` |
+| Area6 | Anchor Points: This symbol requires two anchor points. Point 1 defines the center point of the symbol and point 2 defines the symbol’s start point and radius. | `LineString` |
 | Area7 | Anchor Points: This symbol requires three anchor points. Point 1 is the tip of the arrowhead. Points 2 and 3 define the endpoints of the straight line on the back side of the symbol. | `Polygon` |
 | Area8 | Anchor Points: This symbol requires four anchor points. Points 1 and 2 define the endpoints of the straight line on the back side of the symbol. Points 3 and 4 define the tips of the arrowheads. | `Polygon` |
 | Area9 | Anchor Points: This symbol requires at least three anchor points to define the boundary of the area. Add as many points as necessary to accurately reflect the area’s size and shape. | `Polygon` |
 | Area10 | Anchor Points: This symbol requires a minimum of three (3) and a maximum of six (6) anchor points to define the boundary of the area. The anchor points shall be sequentially numbered, in increments of one (1), beginning with point one (1). | `Polygon` |
 | Area11 | Anchor Points: This symbol requires three anchor points. Points 1 and 2 define the endpoints of the symbol’s vertical line. Point 3 defines the endpoint of the symbol’s horizontal line. | `Polygon` |
 | Area12 | Anchor Points: This symbol requires three anchor points. Points 1 and 2 define the end points of the symbol’s vertical line. Point 3 defines the tip of the longest arrow. | `Polygon` |
-| Area13 | Anchor Points: This symbol requires at least two anchor points. Points 1 and 2 define the corners of the symbol. | `Polygon` |
+| Area13 | Anchor Points: This symbol requires at least two anchor points. Points 1 and 2 define the corners of the symbol. | `LineString` |
 | Area14 | Anchor Points: This symbol requires three anchor points. The center point defines the center of the symbol. Points 1 and 2 define the radii of circles 1 and 2. | `Polygon` |
-| Area15 | Anchor Points: This symbol requires two anchor points. Point 1 defines the center point of the symbol and point 2 defines the symbol’s start point and radius. | `Polygon` |
-| Area16 | Anchor Points: This symbol requires two anchor points. Point 1 defines the center point of the symbol and point 2 defines the symbol’s start point and radius. | `Polygon` |
+| Area15 | Anchor Points: This symbol requires two anchor points. Point 1 defines the center point of the symbol and point 2 defines the symbol’s start point and radius. | `LineString` |
+| Area16 | Anchor Points: This symbol requires two anchor points. Point 1 defines the center point of the symbol and point 2 defines the symbol’s start point and radius. | `LineString` |
 | Area17 | Anchor Points: This symbol requires three anchor points. Points 1 and 2 define the endpoints of the symbol’s vertical line. Point 3 defines the rear of the symbol. | `Polygon` |
 | Area18 | Anchor Points: This symbol requires four anchor points. Point 1 defines the tip of the first arrowhead. Point 2 defines the end of the straight line portion of the first arrow. Point 3 defines the tip of the second arrowhead. Point 4 defines the end of the second arrow. | `Polygon` |
-| Area19 | Anchor Points: This symbol requires two anchor points. Point 1 defines the center point of the symbol and point 2 defines the symbol’s start point and radius. | `Polygon` |
+| Area19 | Anchor Points: This symbol requires two anchor points. Point 1 defines the center point of the symbol and point 2 defines the symbol’s start point and radius. | `LineString` |
 | Area20 | Anchor Points: This symbol requires at least three anchor points to define the boundary of the area. Add as many points as necessary to accurately reflect the area’s size and shape. | `Polygon` |
 | Area21 | Anchor Points: This symbol requires three anchor points. Point 1 defines the vertex of the symbol. Points 2 and 3 define the tips of the arrowheads. | `Polygon` |
-| Area22 | Anchor Points: This symbol requires one anchor point. The center point defines the center of the symbol. | `Polygon` |
+| Area22 | Anchor Points: This symbol requires one anchor point. The center point defines the center of the symbol. | `Point` |
 | Area23 | Anchor Points: This symbol requires at least three anchor points to define the boundary of the area. | `Polygon` |
 | Area24 | Anchor Points: This symbol requires three anchor points. Points 1 and 2 define the endpoints of the symbol’s vertical line. Point 3 defines the endpoint of the symbol’s horizontal line. | `Polygon` |
 | Area25 | Anchor Points: This symbol requires three anchor points. Points 1 and 2 define the end points of the symbol’s vertical line. Point 3 defines the tip of the longest arrow. | `Polygon` |
